@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from utils import MinMax, OneHotEncodingNames, OrdinalFeature
 
-dados = pd.read_excel('https://github.com/LucasDataDev/Fiap_dataanalytics/raw/refs/heads/main/obesity_tratada_final.xlsx')
+dados = pd.read_excel('https://github.com/LucasDataDev/Fiap_dataanalytics/raw/main/obesity_tratada_final.xlsx')
 st.title('Análise de saúde corporal')
 st.write('## Com o poderoso e tecnologico processamento em modelo de Machine Learning, ' \
 'iremos te auxiliar na identificação de saúde corporal dos pacientes')
